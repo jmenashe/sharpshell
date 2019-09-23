@@ -90,6 +90,9 @@
   <ItemGroup>
     <None Include="Properties\Dependencies\IconLib.dll" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\IconLib.dll" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>
