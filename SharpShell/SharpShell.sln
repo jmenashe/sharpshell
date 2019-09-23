@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2046
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpShell", "SharpShell\SharpShell.csproj", "{B5D5F670-BFBA-4D09-91C6-74BB12B7EDD4}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -98,6 +98,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourcesPropertySheet", "Samples\PropertySheet\ResourcesPropertySheet\ResourcesPropertySheet.csproj", "{D94D7E7A-4A71-4750-B5C6-2E797F5C4D0C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourcesPropertySheet.Tests", "Samples\PropertySheet\ResourcesPropertySheet.Tests\ResourcesPropertySheet.Tests.csproj", "{B1418BD9-CF03-45C8-B8D0-84CEEB4E4978}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerInspector", "Tools\ServerInspector\ServerInspector.csproj", "{5183F6D9-1DC3-4F28-8A90-0C4F7F2DBCA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -543,6 +545,22 @@ Global
 		{B1418BD9-CF03-45C8-B8D0-84CEEB4E4978}.Release|x64.Build.0 = Release|Any CPU
 		{B1418BD9-CF03-45C8-B8D0-84CEEB4E4978}.Release|x86.ActiveCfg = Release|Any CPU
 		{B1418BD9-CF03-45C8-B8D0-84CEEB4E4978}.Release|x86.Build.0 = Release|Any CPU
+		{5183F6D9-1DC3-4F28-8A90-0C4F7F2DBCA6}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{5183F6D9-1DC3-4F28-8A90-0C4F7F2DBCA6}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{5183F6D9-1DC3-4F28-8A90-0C4F7F2DBCA6}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{5183F6D9-1DC3-4F28-8A90-0C4F7F2DBCA6}.Debug|Win32.ActiveCfg = Debug|x86
+		{5183F6D9-1DC3-4F28-8A90-0C4F7F2DBCA6}.Debug|Win32.Build.0 = Debug|x86
+		{5183F6D9-1DC3-4F28-8A90-0C4F7F2DBCA6}.Debug|x64.ActiveCfg = Debug|x86
+		{5183F6D9-1DC3-4F28-8A90-0C4F7F2DBCA6}.Debug|x86.ActiveCfg = Debug|x86
+		{5183F6D9-1DC3-4F28-8A90-0C4F7F2DBCA6}.Debug|x86.Build.0 = Debug|x86
+		{5183F6D9-1DC3-4F28-8A90-0C4F7F2DBCA6}.Release|Any CPU.ActiveCfg = Release|x86
+		{5183F6D9-1DC3-4F28-8A90-0C4F7F2DBCA6}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{5183F6D9-1DC3-4F28-8A90-0C4F7F2DBCA6}.Release|Mixed Platforms.Build.0 = Release|x86
+		{5183F6D9-1DC3-4F28-8A90-0C4F7F2DBCA6}.Release|Win32.ActiveCfg = Release|x86
+		{5183F6D9-1DC3-4F28-8A90-0C4F7F2DBCA6}.Release|Win32.Build.0 = Release|x86
+		{5183F6D9-1DC3-4F28-8A90-0C4F7F2DBCA6}.Release|x64.ActiveCfg = Release|x86
+		{5183F6D9-1DC3-4F28-8A90-0C4F7F2DBCA6}.Release|x86.ActiveCfg = Release|x86
+		{5183F6D9-1DC3-4F28-8A90-0C4F7F2DBCA6}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -585,6 +603,7 @@ Global
 		{ED79CEAB-CA8A-47C1-8989-430E3A68F2C3} = {1485D689-7B58-4926-A9A8-7192F47E417B}
 		{D94D7E7A-4A71-4750-B5C6-2E797F5C4D0C} = {8D0115C0-3631-46D2-B4BC-5DFB9D6DC614}
 		{B1418BD9-CF03-45C8-B8D0-84CEEB4E4978} = {8D0115C0-3631-46D2-B4BC-5DFB9D6DC614}
+		{5183F6D9-1DC3-4F28-8A90-0C4F7F2DBCA6} = {2B76CB23-07D4-4139-9872-3FF41FEA6F24}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2187190F-D346-4601-AC5D-3D30CC326C54}
