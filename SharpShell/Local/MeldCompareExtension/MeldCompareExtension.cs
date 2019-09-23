@@ -5,7 +5,7 @@ using System.Windows.Forms;
 using SharpShell.Attributes;
 using SharpShell.SharpContextMenu;
 
-namespace CountLinesExtension
+namespace MeldCompareExtension
 {
     /// <summary>
     /// The CountLinesExtensions is an example shell context menu extension,
@@ -41,10 +41,10 @@ namespace CountLinesExtension
 
             //  Create a 'count lines' item.
             var itemCountLines = new ToolStripMenuItem
-                                     {
-                                         Text = "Count Lines...",
-                                         Image = Properties.Resources.CountLines
-                                     };
+            {
+                Text = "Count Lines...",
+                Image = Properties.Resources.CountLines
+            };
 
             //  When we click, we'll count the lines.
             itemCountLines.Click += (sender, args) => CountLines();
