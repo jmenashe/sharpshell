@@ -1,1 +1,1 @@
-﻿This dll includes resources, which we use to test the resource loader. The project can be edited, just find the 'DllWithResources' project which is adjancet to this one. It is not inclded in the main SharpShell solution.
+﻿This dll includes resources, which we use to test the resource loader. The project can be edited, just find the 'DllWithResources' project which is adjancet to this one, and then build the project to autmoatically copy the new dll to this directory. It is not inclded in the main SharpShell solution.
