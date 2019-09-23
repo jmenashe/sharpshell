@@ -101,6 +101,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourcesPropertySheet.Test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerInspector", "Tools\ServerInspector\ServerInspector.csproj", "{5183F6D9-1DC3-4F28-8A90-0C4F7F2DBCA6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Local Implementations", "5. Local Implementations", "{7FB0F46B-FE7B-4DB7-AF26-3929F0F83636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeldCompareExtension", "Local\MeldCompareExtension\MeldCompareExtension.csproj", "{7EAFDA87-F9C2-4790-AA0A-278C3E60D40C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -561,6 +565,26 @@ Global
 		{5183F6D9-1DC3-4F28-8A90-0C4F7F2DBCA6}.Release|x64.ActiveCfg = Release|x86
 		{5183F6D9-1DC3-4F28-8A90-0C4F7F2DBCA6}.Release|x86.ActiveCfg = Release|x86
 		{5183F6D9-1DC3-4F28-8A90-0C4F7F2DBCA6}.Release|x86.Build.0 = Release|x86
+		{7EAFDA87-F9C2-4790-AA0A-278C3E60D40C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EAFDA87-F9C2-4790-AA0A-278C3E60D40C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EAFDA87-F9C2-4790-AA0A-278C3E60D40C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7EAFDA87-F9C2-4790-AA0A-278C3E60D40C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7EAFDA87-F9C2-4790-AA0A-278C3E60D40C}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{7EAFDA87-F9C2-4790-AA0A-278C3E60D40C}.Debug|Win32.Build.0 = Debug|Any CPU
+		{7EAFDA87-F9C2-4790-AA0A-278C3E60D40C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7EAFDA87-F9C2-4790-AA0A-278C3E60D40C}.Debug|x64.Build.0 = Debug|Any CPU
+		{7EAFDA87-F9C2-4790-AA0A-278C3E60D40C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7EAFDA87-F9C2-4790-AA0A-278C3E60D40C}.Debug|x86.Build.0 = Debug|Any CPU
+		{7EAFDA87-F9C2-4790-AA0A-278C3E60D40C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EAFDA87-F9C2-4790-AA0A-278C3E60D40C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EAFDA87-F9C2-4790-AA0A-278C3E60D40C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7EAFDA87-F9C2-4790-AA0A-278C3E60D40C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{7EAFDA87-F9C2-4790-AA0A-278C3E60D40C}.Release|Win32.ActiveCfg = Release|Any CPU
+		{7EAFDA87-F9C2-4790-AA0A-278C3E60D40C}.Release|Win32.Build.0 = Release|Any CPU
+		{7EAFDA87-F9C2-4790-AA0A-278C3E60D40C}.Release|x64.ActiveCfg = Release|Any CPU
+		{7EAFDA87-F9C2-4790-AA0A-278C3E60D40C}.Release|x64.Build.0 = Release|Any CPU
+		{7EAFDA87-F9C2-4790-AA0A-278C3E60D40C}.Release|x86.ActiveCfg = Release|Any CPU
+		{7EAFDA87-F9C2-4790-AA0A-278C3E60D40C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -604,6 +628,7 @@ Global
 		{D94D7E7A-4A71-4750-B5C6-2E797F5C4D0C} = {8D0115C0-3631-46D2-B4BC-5DFB9D6DC614}
 		{B1418BD9-CF03-45C8-B8D0-84CEEB4E4978} = {8D0115C0-3631-46D2-B4BC-5DFB9D6DC614}
 		{5183F6D9-1DC3-4F28-8A90-0C4F7F2DBCA6} = {2B76CB23-07D4-4139-9872-3FF41FEA6F24}
+		{7EAFDA87-F9C2-4790-AA0A-278C3E60D40C} = {7FB0F46B-FE7B-4DB7-AF26-3929F0F83636}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2187190F-D346-4601-AC5D-3D30CC326C54}
