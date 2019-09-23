@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Text;
+using System.Linq;
+using System.IO;
 using SharpShell.Extensions;
 using SharpShell.Interop;
 
@@ -63,6 +65,47 @@ namespace SharpShell
         public IEnumerable<string> SelectedItemPaths
         {
             get { return selectedItemPaths; }
+        }
+        public IEnumerable<FileSystemInfo> SelectedFileSystemEntries
+        {
+            get
+            {
+                var systemEntries = this.SelectedItemPaths
+                    .Select(path =>
+                    {
+                        if (Directory.Exists(path))
+                            return new DirectoryInfo(path) as FileSystemInfo;
+                        else if (File.Exists(path))
+                            return new FileInfo(path) as FileSystemInfo;
+                        else
+                            throw new Exception($"Path points to neither a file nor a directory: {path}");
+                    })
+                ;
+                return systemEntries;
+            }
+        }
+
+        public IEnumerable<DirectoryInfo> SelectedDirectories
+        {
+            get
+            {
+                foreach(var path in this.SelectedItemPaths)
+                {
+                    if (Directory.Exists(path))
+                        yield return new DirectoryInfo(path);
+                }
+            }
+        }
+        public IEnumerable<FileInfo> SelectedFiles
+        {
+            get
+            {
+                foreach (var path in this.SelectedItemPaths)
+                {
+                    if (File.Exists(path))
+                        yield return new FileInfo(path);
+                }
+            }
         }
 
         /// <summary>
